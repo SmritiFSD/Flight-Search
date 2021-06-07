@@ -1,0 +1,66 @@
+.flight-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(60,64,67, 0.3), 0 4px 8px 3px rgba(60,64,67, 0.15);
+  margin: 10px auto;
+  padding: 8px 16px 48px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 80%;
+}
+
+.price {
+  float: right;
+  font-size: 26px;
+}
+
+.book-button {
+  float: right;
+}
+
+.detail-container {
+  display: flex;
+}
+
+.id {
+  padding: 5px 15px;
+}
+
+.inner {
+  padding: 5px 25px;
+}
+
+.time {
+  padding-bottom: 5px;
+}
+
+.duration {
+  font-size: 22px;
+}
+
+.city {
+  color: #3c4043
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .price {
+    float: none;
+    margin-bottom: 5px;
+  }
+  .id {
+    padding: 5px;
+  }
+  .inner {
+    padding: 5px;
+  }
+}
