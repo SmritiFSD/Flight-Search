@@ -27,10 +27,8 @@ class CalendarInput extends Component {
   }
  
   render() {
-    let { label, date, start, icon } = this.props;
-    if (date < start) {
-      date = start;
-    }
+    let { label, date, icon } = this.props;
+   
 
     return (
       <div className="container" onBlur={this.handleBlur.bind(this)}>
